@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #F5B79E; 
+    --secondary-color: #A6C6D5;
+    --third-color: #F7F7F9;
+}
+body {
+    margin: 0;
+}
+
+.main { /*first section with content*/
+    width: 1920px;
+    height: 1080px;
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+}
+.main2 { /*second section with content*/
+    width: 1920px;
+    height: 1080px;
+    background-color: var(--primary-color);
+}
+.main3 { /*third section with content*/
+    width: 1920px;
+    height: 1080px;
+    background-color: var(--secondary-color);
+}
+.main4 {
+    width: 1920px;
+    height: 1080px;
+    background-color: var(--third-color);
+}
+.main5 {
+    width: 1920px;
+    height: 1080px;
+    background-color: var(--primary-color);
+}
+
