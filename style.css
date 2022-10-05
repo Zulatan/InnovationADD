@@ -6,6 +6,7 @@
 }
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
@@ -56,7 +57,7 @@ body {
     font-size: 24px;
 }
 .main2Home{
-    font-size: 20px; 
+    font-size: 20px;
 }
 .main2, h1{
     font-size: 60px;
@@ -99,18 +100,78 @@ body {
 /*third section with content*/
 .main3 { 
     width: 1920px;
-    height: 1080px;
+    height: 1085px;
     background-color: var(--secondary-color);
 }
+.main3 h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 45px;
+    color: white;
+    font-size: 100px;
+}
+.main3Container{
+    display: flex;
+}
+.main3Txt{
+    font-size: 40px;
+    padding-right: 45px;
+}
 
-/*third section with content*/
+/*fourth section with content*/
 .main4 {
     width: 1920px;
     height: 1080px;
     background-color: var(--third-color);
 }
+.main4 h1{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 45px;
+}
+.main4Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 50px;
+
+}
+.main4Container img{
+    padding-left: 270px;
+}
+
+.main4Container p{
+    font-size: 22px;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fifth section with content*/
 .main5 {
     width: 1920px;
     height: 1080px;
     background-color: var(--primary-color);
+}
+.main5 h1{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+.main5 p{
+    padding-bottom: 50px;
+    text-align: center;
 }
