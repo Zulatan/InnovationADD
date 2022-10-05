@@ -127,7 +127,7 @@ body {
 .main4 h1{
     text-align: center;
     font-size: 100px;
-    margin-top: 45px;
+    margin-top: 45  px;
 }
 .main4Container{
     display: grid;
@@ -174,4 +174,5 @@ body {
 .main5 p{
     padding-bottom: 50px;
     text-align: center;
+    font-size: 30px;
 }
